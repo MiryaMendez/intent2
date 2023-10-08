@@ -1,9 +1,7 @@
 # intent2
 uu
-include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
-
-
 void recorrematriz(int M[][4]) 
 {
     int i, j;
@@ -15,7 +13,6 @@ void recorrematriz(int M[][4])
         }
     }
 }
-
 void invertirarreglo(int M[][4]) 
 {
     int i, j;
@@ -27,23 +24,16 @@ void invertirarreglo(int M[][4])
          }
     }
 }
-
 int main() 
 {
     int i,j; 
     int imagen[4][4]=
     {
-       
-        
          {255, 255, 255, 255},
         {255, 127, 127, 127},
         {255, 0, 127, 255},
-        {0, 0, 255, 255}
-        
-       
+        {0, 0, 255, 255}     
     };
-
-
     recorrematriz(imagen);
     printf("la matriz original es:\n");
     for(i=0; i<4; i++) 
@@ -54,7 +44,6 @@ int main()
         }
         printf("\n");
     }
-
 invertirarreglo(imagen);
     printf("Matriz invertida:\n");
     for (i=0; i<4; i++) 
