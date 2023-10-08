@@ -1,5 +1,5 @@
-//# intent2
- //uu
+# intent2
+uu
 include <stdio.h>
 #include <stdlib.h>
 
